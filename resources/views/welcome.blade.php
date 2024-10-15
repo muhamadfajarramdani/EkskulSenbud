@@ -15,7 +15,7 @@
         .hero {
             display: flex;
             align-items: center;
-            justify-content: center; /* Agar teks tetap berada di tengah */
+            justify-content: center;
             padding: 50px 0;
             background: url('{{ asset('assets/images/Gedung.jpg') }}') no-repeat center center/cover;
             color: white;
@@ -29,13 +29,13 @@
             position: absolute;
             top: 20px;
             left: 20px;
-            width: 80px; /* Ukuran logo lebih kecil */
-            z-index: 10; /* Memastikan logo berada di depan semua elemen */
+            width: 80px;
+            z-index: 10;
         }
 
         .hero-text {
             text-align: center;
-            z-index: 1; /* Agar teks berada di atas layer gelap */
+            z-index: 1;
         }
 
         .hero h1 {
@@ -110,7 +110,6 @@
             }
         }
 
-        /* Layer gelap untuk background */
         .hero::before {
             content: '';
             position: absolute;
@@ -118,7 +117,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.5); /* Layer gelap untuk membuat teks lebih kontras */
+            background: rgba(0, 0, 0, 0.5);
             z-index: 1;
             border-radius: 10px;
         }

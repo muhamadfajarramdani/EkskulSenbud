@@ -61,18 +61,13 @@
             height: auto;
         }
 
-        /* Styling untuk hr */
         .sidebar hr {
             border: none;
-            /* Hilangkan border default */
+
             height: 5px;
-            /* Atur ketebalan */
             background-image: linear-gradient(to right, #6c757d, #fff);
-            /* Tambahkan efek gradien */
             margin: 20px auto;
-            /* Beri jarak margin */
             width: 100%;
-            /* Sesuaikan lebar garis */
         }
     </style>
 </head>
@@ -80,7 +75,6 @@
 <body>
 
     <div class="sidebar shadow-sm">
-        <!-- Tambahkan logo di sini -->
         <img src="{{ asset('assets/images/logo-smkwikrama.png') }}" alt="Logo SMK Wikrama" class="logo-img">
         <a class="navbar-brand fw-bold">SMK WIKRAMA</a>
         <hr>
@@ -104,7 +98,7 @@
     </div>
 
     <div class="content">
-        @yield('content') <!-- Bagian ini akan diisi oleh konten dari setiap view yang menggunakan layout ini -->
+        @yield('content')
     </div>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

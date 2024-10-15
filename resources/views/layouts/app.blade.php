@@ -15,41 +15,33 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <style>
-        /* CSS untuk sidebar */
+
         .sidebar {
             height: 100vh;
-            /* Full height */
             position: fixed;
-            /* Tetap pada posisi saat scroll */
             left: 0;
             top: 0;
             width: 250px;
-            /* Lebar sidebar */
             background-color: #343a40;
-            /* Warna latar belakang lebih gelap */
             padding-top: 20px;
         }
 
         .sidebar .nav-link {
             color: #fff;
-            /* Teks putih */
             font-weight: bold;
         }
 
         .sidebar .nav-link:hover {
             background-color: #495057;
-            /* Warna hover */
             border-radius: 5px;
         }
 
         .sidebar .nav-link i {
             margin-right: 10px;
-            /* Memberi jarak antara ikon dan teks */
         }
 
         .content {
             margin-left: 250px;
-            /* Sama dengan lebar sidebar */
             padding: 20px;
         }
 
@@ -60,15 +52,12 @@
             display: block;
             margin-bottom: 30px;
             font-family: 'Poppins', sans-serif;
-            /* Ganti font SMK WIKRAMA dengan Poppins */
         }
 
         .logo-img {
             display: block;
             margin: 0 auto 20px auto;
-            /* Pusatkan gambar dan beri margin bawah */
             width: 100px;
-            /* Sesuaikan ukuran gambar */
             height: auto;
         }
 

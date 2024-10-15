@@ -44,18 +44,18 @@
 
 <style>
     body {
-        background-color: #e9ecef; /* Warna latar belakang halaman yang lembut */
+        background-color: #e9ecef;
     }
 
     .bg-gradient {
-        background: linear-gradient(90deg, #343a40, #9a8ab5); /* Gradasi warna */
+        background: linear-gradient(90deg, #343a40, #9a8ab5);
     }
 
     .text-gradient {
-        background: linear-gradient(90deg, #343a40, #9a8ab5);    /* Gradasi warna */
+        background: linear-gradient(90deg, #343a40, #9a8ab5);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 2.5rem; /* Ukuran font yang lebih besar */
+        font-size: 2.5rem;
     }
 
     .btn-add {
@@ -63,18 +63,18 @@
     }
 
     .btn-add:hover {
-        background-color: #28a745; /* Warna hijau lebih terang saat hover */
-        box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); /* Tambahkan bayangan saat hover */
+        background-color: #28a745;
+        box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2);
     }
 
     .card-custom {
-        background-color: #ffffff; /* Warna latar belakang kartu */
-        transition: transform 0.2s, box-shadow 0.2s; /* Animasi transisi */
+        background-color: #ffffff;
+        transition: transform 0.2s, box-shadow 0.2s;
     }
 
     .card-custom:hover {
-        transform: scale(1.02); /* Perbesar sedikit saat hover */
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); /* Tambahkan bayangan lebih dalam saat hover */
+        transform: scale(1.02);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
     }
 
     .card-header {
@@ -83,13 +83,13 @@
     }
 
     .card-footer {
-        background-color: #f8f9fa; /* Warna latar belakang footer */
+        background-color: #f8f9fa;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
     }
 
     .text-muted {
-        color: #6c757d; /* Warna teks yang lebih lembut untuk informasi tambahan */
+        color: #6c757d;
     }
 </style>
 
